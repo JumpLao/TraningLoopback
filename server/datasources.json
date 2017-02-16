@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgres": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://traning:p123456@localhost/training",
+    "database": "training",
+    "password": "Witsawa122333",
+    "name": "postgres",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}

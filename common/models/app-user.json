@@ -1,0 +1,29 @@
+{
+  "name": "AppUser",
+  "base": "User",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "cVs": {
+      "type": "hasMany",
+      "model": "CV",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
